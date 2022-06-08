@@ -9,7 +9,7 @@ function PageExample(props) {
 	return (
 		<div className='grid md:grid-flow-col transition-all duration-[1.5s] ease-linear dark:bg-gray-800'>
 			<div className='grid place-content-center h-[80vh] md:h-full gap-4 p-4 md:p-16'>
-				<h1 className=' font-sans mb-5 text-5xl md:text-6xl font-extrabold dark:text-white'>
+				<h1 className='mb-5 text-5xl md:text-6xl font-black dark:text-white'>
 					{props.title}
 				</h1>
 
