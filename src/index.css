@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+.dropdown:focus-within .dropdown-menu {
+	opacity: 1;
+	transform: translate(0) scale(1);
+	visibility: visible;
+}
+.egypt {
+	background-image: url('https://ilmelnik.ru/wp-content/uploads/2019/10/DSC06604_1.jpg');
+}
+.garden {
+	background-image: url('https://diletant.media/upload/medialibrary/0b5/0b5459cc1e7b9d904d7ad9eebef1e396.jpg');
+}
+.tomb {
+	background-image: url('https://architectureguru.ru/wp-content/uploads/2021/02/temple-of-artemis-in-ephesus-1.jpg');
+}
+.zeus {
+	background-image: url('https://cs9.pikabu.ru/post_img/big/2017/05/19/4/14951698791491511.jpg');
+}
+.mausoleum {
+	background-image: url('https://kidpassage.com/images/activity/images/mavzoley-bodrum-02.jpg');
+}
+.kolos {
+	background-image: url('https://ostrov-rodos.com/wp-content/uploads/2018/11/005.jpg');
+}
+.lighthouse {
+	background-image: url('https://preview.free3d.com/img/2016/04/2408202567491258266/4e0uosoe-900.jpg');
+}
+.pencil {
+	background-image: url('https://www.biletik.aero/upload/iblock/6b1/6b1b3d178e9608d337d5ee98edc2c656.jpg');
+}
+.canyon {
+	background-image: url('https://hornews.com/upload/images/ustinovskiy-kanyon-5.jpg');
+}
+.sweet {
+	background-image: url('https://nashural.ru/assets/uploads/sladkoe01.jpg');
+}
+.lake {
+	background-image: url('https://hornews.com/upload/images/big-_DSC7365%2B.jpg');
+}
+.icon {
+	background-image: url('https://hornews.com/upload/images/%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0.jpeg');
+}
+.gems {
+	background-image: url('./assets/0_f8202_7bb135b6_L.jpg');
+}
+.stone {
+	background-image: url('https://hornews.com/upload/images/itkul-1.jpg');
+}
