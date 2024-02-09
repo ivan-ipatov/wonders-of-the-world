@@ -10,7 +10,7 @@ function HomePage() {
 			<h1 className='text-center font-[Inter] text-3xl font-bold text-blue-500 sm:text-5xl'>
 				Чудеса света и Урала
 			</h1>
-			<div className='h-[250px] md:h-[600px]'>
+			<div className='h-[250px] md:h-[500px]'>
 				<lottie-player
 					src='https://assets9.lottiefiles.com/packages/lf20_bhebjzpu.json'
 					background='transparent'
