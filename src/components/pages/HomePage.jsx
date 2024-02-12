@@ -23,7 +23,7 @@ function HomePage() {
 				<div className=' relative inline-block text-left dropdown'>
 					<span className='rounded-md shadow-sm'>
 						<button
-							className='inline-flex items-center drop-shadow-lg rounded-lg bg-green-500 px-3 py-3 text-center font-[Inter] text-sm font-bold text-white transition-colors hover:bg-green-700 hover:text-[#ffffff] focus:ring-4 focus:ring-green-800  sm:px-6 sm:text-xl'
+							className='inline-flex items-center drop-shadow-lg rounded-lg bg-green-500 px-3 py-3 text-center font-[Inter] text-sm font-bold text-white transition-colors hover:bg-green-700 hover:text-[#ffffff] focus:ring-4 focus:ring-green-300 sm:px-6 sm:text-xl'
 							type='button'
 							aria-haspopup='true'
 							aria-expanded='true'
